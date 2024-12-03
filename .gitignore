@@ -1,0 +1,9 @@
+models/
+.env
+vectore_store/
+
+
+# bin files/ llama model 
+*.bin
+*.faiss
+*.pkl 
