@@ -6,7 +6,7 @@ st.title("Healthcare Agentic Assistant")
 
 def initialize_session_state():
     if "generated" not in st.session_state:
-        st.session_state["generated"] = ["Hello! How can I assist you with your health today?"]
+        st.session_state["generated"] = ["Hello! How can I assist you today?"]
     if "past" not in st.session_state:
         st.session_state["past"] = ["Hey there!"]
 
@@ -19,7 +19,7 @@ def chat_interface():
 
     with container:
         with st.form(key="chat_form", clear_on_submit=True):
-            user_input = st.text_input("Your Question:", placeholder="Ask me about your health")
+            user_input = st.text_input("Your Question:", placeholder="Please ask a question")
             submit_btn = st.form_submit_button(label="Send")
 
             if submit_btn and user_input:
