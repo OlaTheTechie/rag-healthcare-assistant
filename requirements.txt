@@ -1,7 +1,10 @@
-streamlit
-langchain
-openai
+streamlit==1.41.1
+streamlit-chat==0.1.1
+langchain==0.3.14
 langchain_community
-python-dotenv
-sentence-transformers
-faiss-cpu
+faiss-cpu==1.9.0.post1
+numpy==2.2.1
+scikit-learn==1.6.0
+torch==2.5.1
+transformers==4.47.1
+
