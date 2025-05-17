@@ -2,6 +2,9 @@
 
 A healthcare-focused chatbot application using Streamlit and LangChain.
 
+![Alt text](assets/ai-healthcare-assistant.jpg "Optional title")
+
+
 ## Installation
 
 Clone the repository:
